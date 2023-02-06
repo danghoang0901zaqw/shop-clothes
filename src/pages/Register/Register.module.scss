@@ -1,0 +1,67 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding: 20px;
+  width: 25%;
+  background: #fff;
+  border-radius: 5px;
+}
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    padding: 10px;
+    outline: none;
+
+    + input {
+      margin-top: 20px;
+    }
+  }
+
+  span{
+    margin: 5px 0;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  padding: 10px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  margin: 20px 0 10px;
+  background: teal;
+  color: #fff;
+
+  &:hover {
+    background: rgb(2, 100, 100);
+  }
+}

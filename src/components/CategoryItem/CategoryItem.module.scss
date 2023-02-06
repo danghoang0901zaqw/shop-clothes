@@ -1,0 +1,39 @@
+.wrapper {
+  position: relative;
+  flex: 1;
+  margin: 3px;
+  .img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    color: #fff;
+    margin-bottom: 20px;
+
+  }
+  .btn {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: #fff;
+    color: gray;
+    cursor: pointer;
+    font-weight: 600;
+  }
+}

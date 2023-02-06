@@ -1,0 +1,23 @@
+.wrapper {
+}
+.title-filter {
+  font-size: 4rem;
+  margin: 20px;
+  font-weight: 500;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.filter {
+  .text-filter {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  .select-filter {
+    margin-right: 20px;
+    padding: 10px;
+  }
+}
